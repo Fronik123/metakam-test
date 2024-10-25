@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/metakam-test/static/css/main.92230f8f.css",
+    "main.js": "/metakam-test/static/js/main.64780b69.js",
+    "static/js/453.896cdead.chunk.js": "/metakam-test/static/js/453.896cdead.chunk.js",
+    "static/media/rebbok-2.jpg": "/metakam-test/static/media/rebbok-2.13859bba528b54084f66.jpg",
+    "static/media/rebbok-4.jpg": "/metakam-test/static/media/rebbok-4.63b2448ce81c62937026.jpg",
+    "static/media/rebbok-3.jpg": "/metakam-test/static/media/rebbok-3.6948d4bc9d2a09e6cf19.jpg",
+    "static/media/rebbok-1.jpg": "/metakam-test/static/media/rebbok-1.5c0a05d3c933bb11f75a.jpg",
+    "static/media/rebbok-5.jpg": "/metakam-test/static/media/rebbok-5.a01eac0e26e57a754179.jpg",
+    "static/media/icon-person.jpg": "/metakam-test/static/media/icon-person.c3f09d407dd339a6f1ff.jpg",
+    "static/media/return-product.svg": "/metakam-test/static/media/return-product.7d356e1b72f47ec91848b0557d068051.svg",
+    "static/media/deliver.svg": "/metakam-test/static/media/deliver.fec968e544773ce79b251697b31875d9.svg",
+    "static/media/cart.svg": "/metakam-test/static/media/cart.048c23632111457f7a9da81313892175.svg",
+    "static/media/favorites.svg": "/metakam-test/static/media/favorites.6821cd6669046cdf4161a2dd347bb2a5.svg",
+    "index.html": "/metakam-test/index.html",
+    "static/media/dot.svg": "/metakam-test/static/media/dot.9832476def7adadada9d897afe1622d3.svg",
+    "static/media/search.svg": "/metakam-test/static/media/search.01da7b90b09620b3b6c61977cfa584e0.svg",
+    "main.92230f8f.css.map": "/metakam-test/static/css/main.92230f8f.css.map",
+    "main.64780b69.js.map": "/metakam-test/static/js/main.64780b69.js.map",
+    "453.896cdead.chunk.js.map": "/metakam-test/static/js/453.896cdead.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92230f8f.css",
+    "static/js/main.64780b69.js"
+  ]
+}
