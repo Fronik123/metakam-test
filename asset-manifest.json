@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/metakam-test/static/css/main.6533ab71.css",
+    "main.css": "/metakam-test/static/css/main.8141b323.css",
     "main.js": "/metakam-test/static/js/main.64780b69.js",
     "static/js/453.896cdead.chunk.js": "/metakam-test/static/js/453.896cdead.chunk.js",
     "static/media/rebbok-2.jpg": "/metakam-test/static/media/rebbok-2.13859bba528b54084f66.jpg",
@@ -16,12 +16,12 @@
     "index.html": "/metakam-test/index.html",
     "static/media/dot.svg": "/metakam-test/static/media/dot.9832476def7adadada9d897afe1622d3.svg",
     "static/media/search.svg": "/metakam-test/static/media/search.01da7b90b09620b3b6c61977cfa584e0.svg",
-    "main.6533ab71.css.map": "/metakam-test/static/css/main.6533ab71.css.map",
+    "main.8141b323.css.map": "/metakam-test/static/css/main.8141b323.css.map",
     "main.64780b69.js.map": "/metakam-test/static/js/main.64780b69.js.map",
     "453.896cdead.chunk.js.map": "/metakam-test/static/js/453.896cdead.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6533ab71.css",
+    "static/css/main.8141b323.css",
     "static/js/main.64780b69.js"
   ]
 }
