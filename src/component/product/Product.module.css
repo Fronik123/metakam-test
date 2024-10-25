@@ -1,0 +1,210 @@
+@import "@radix-ui/colors/black-alpha.css";
+@import "@radix-ui/colors/green.css";
+@import "@radix-ui/colors/mauve.css";
+@import "@radix-ui/colors/violet.css";
+
+.shoes.active {
+  opacity: 1;
+  border: 2px solid #000;
+}
+
+.wrapperProduct {
+  margin-bottom: 30px;
+}
+
+.wrapperNameClother {
+  color: rgb(94, 90, 90);
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  margin: 15px 0 10px 0;
+}
+
+.wrapperNameClother img {
+  position: relative;
+  margin-top: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+.innerProduct {
+  display: flex;
+}
+
+.showProduct {
+  width: 50%;
+}
+
+.showProduct img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.imgProduct {
+  display: flex;
+  width: calc(20% - 12px);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.imgProduct:hover {
+  cursor: pointer;
+}
+
+.wrapperInfoProduct {
+  width: 50%;
+  margin-left: 70px;
+}
+
+.wrapperCompanyName {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.innerCompanyName {
+  display: flex;
+  align-items: center;
+}
+
+.innerCompanyName p {
+  margin-left: 5px;
+}
+
+.seriesShoes {
+  color: #ababab;
+  font-size: 13px;
+}
+
+.descriptionShoes {
+  margin: 30px 0;
+}
+
+.price {
+  color: #000;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.wrapperToolBar {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.addCart {
+  width: 100%;
+  background: #000;
+  color: white;
+  border-radius: 10px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addCart:hover {
+  cursor: pointer;
+}
+
+.favoritCar {
+  border-radius: 10px;
+  padding: 0 10px;
+  background-color: #f0eee6;
+  display: flex;
+  align-items: center;
+}
+
+.favoritCar:hover {
+  cursor: pointer;
+}
+
+.addCart img {
+  filter: invert(100%);
+  display: block;
+  margin-right: 5px;
+}
+
+.wrapperDelivery {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.wrapperDelivery p {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+@media (max-width: 750px) {
+  .innerProduct {
+    flex-direction: column;
+  }
+
+  .showProduct {
+    width: 100%;
+  }
+
+  .wrapperInfoProduct {
+    width: 100%;
+    margin: 20px 0 70px 0;
+  }
+
+  .imgProduct {
+    display: flex;
+    width: calc(20% - 12px);
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .showProduct img {
+    border-radius: 10px;
+  }
+
+  .imgProduct {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .wrapperInfoProduct h2 {
+    font-size: 22px;
+  }
+
+  .wrapperNameClother {
+    font-size: 12px;
+    margin: 13px 0 8px 0;
+  }
+
+  .wrapperNameClother img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .descriptionShoes {
+    margin: 20px 0;
+    font-size: 14px;
+  }
+
+  .price {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .showProduct img {
+    border-radius: 5px;
+  }
+
+  .imgProduct {
+    margin-top: 5px;
+    width: calc(20% - 8px);
+    gap: 10px;
+  }
+
+  .wrapperProduct {
+    margin-bottom: 15px;
+  }
+}

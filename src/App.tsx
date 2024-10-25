@@ -1,9 +1,19 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React, { FC } from "react";
+import styles from "./App.module.css";
 
-function App() {
-  return <div className="App"></div>;
-}
+//component
+import Header from "./component/header/Header";
+import Navigation from "./component/navigation/Navigation";
+import Product from "./component/product/Product";
+
+const App: FC = () => {
+  return (
+    <div className={styles.wrapper}>
+      <Header></Header>
+      <Navigation></Navigation>
+      <Product></Product>
+    </div>
+  );
+};
 
 export default App;
