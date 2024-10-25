@@ -68,7 +68,6 @@ const Navigation: FC = () => {
           <Menubar.Portal>
             <Menubar.Content className={styles.menuContent}>
               <Menubar.Item className={styles.menuItem}>Puma</Menubar.Item>
-              <Menubar.Separator className={styles.menubarSeparator} />
               <Menubar.Item className={styles.menuItem}>Rebbok</Menubar.Item>
               <Menubar.Item className={styles.menuItem}>Nike</Menubar.Item>
             </Menubar.Content>
